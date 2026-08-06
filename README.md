@@ -18,9 +18,13 @@ This implementation includes AVL rotations and preorder traversal, making it sui
 * Supports all four AVL rotations:
 
 -> Left-Left (LL)
+
 -> Right-Right (RR)
+
 -> Left-Right (LR)
+
 -> Right-Left (RL)
+
 # Technologies Used
 * Java
 * Object-Oriented Programming (OOP)
@@ -52,13 +56,17 @@ java AVLTree
 
 Preorder Traversal of AVL Tree:
 30 20 10 25 40 50
+
 # Time Complexity
 
 Operation   	Complexity
 
 Search	     O(log n)
+
 Insert	     O(log n)
+
 Delete      	O(log n)
+
 Traversal   	O(n)
 
 # AVL Tree Rotations
@@ -66,8 +74,11 @@ Traversal   	O(n)
 The program automatically performs the following rotations to maintain balance:
 
 -> Left-Left (LL)
+
 -> Right-Right (RR)
+
 -> Left-Right (LR)
+
 ->Right-Left (RL)
 
 These rotations ensure that the height difference between the left and right subtrees remains within one.
